@@ -1,2 +1,1 @@
-#Short information
 Repository created for the optional programming exercise. The assigned algorithm is Greedy Routing Algorithm on a Linear Array. The size N of the array is hard-coded (not given as input), so users will have to change its value manually in line 8 ("#define N 6"). The example presented in the video uses N=6. The random initialization of packets (random initial position - random final destination) is also implemented in the code. 
