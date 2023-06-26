@@ -1,11 +1,12 @@
-Repository created for the optional programming exercise. The assigned algorithm is Greedy Routing Algorithm on a Linear Array. The size N of the array is hard-coded (not given as input), so users will have to change its value manually in line 8 ("#define N 6"). The same goes for the number of packets. The random initialization of packets (random initial position - random final destination) is also implemented in the code. 
+Repository created for the optional programming exercise. The assigned algorithm is Greedy Routing Algorithm on a Linear Array. Users can choose between creating and using their own instance, or running a code-generated instance. 
 
 ## Note!
-This implementation is only suited for one-to-one routing, meaning that in order to run entirely correctly the number of processors should be greater than or equal to the number of packets. If the number of packets is greater than the number of processors the program will not run correctly, since it's not made to handle this case.
+This implementation regards one-to-one routing, meaning that every processor will initially contain at most one packet and that each packet will have a different processor as its destination. This also implies that the number of packets cannot be greater than the number of available processors. Corresponding checks exist inside the code, and users will not be allowed to give inputs that don't meet those conditions.
 
 ## How to run in Ideone.com
 
 1. Use the corresponding url to be transported to the page
 2. Click "Edit" in the top left corner (even if you do not wish to modify the code)
 3. On the bottom right (at the end of the code) click "Ideone it!"
-4. The results will appear in the output window
+4. Provide the necessary inputs, according to the corresponding messages
+5. Once all the parameters have been set, the algorithm will be executed and the results will appear in the output window
