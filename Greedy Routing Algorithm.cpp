@@ -109,7 +109,7 @@ for (int i=1; i<=num_of_packets;i++){
 	
 	cout<<"Choose destination of packet "<<i<<":"<<endl;   // anathesi proorismou se kathe paketo
 	cin >> packets[i-1].dest;
-	while(packets[i-1].dest < 1 || packets[i-1].pos > N || checkUniqueDest(packets, packets[i-1].dest, i) == false) {
+	while(packets[i-1].dest < 1 || packets[i-1].dest > N || checkUniqueDest(packets, packets[i-1].dest, i) == false) {
 	 cin.clear();
      cin.ignore(10, '\n');	
      cout<<"Input was invalid! Please choose again: ";
