@@ -5,7 +5,7 @@ This implementation regards one-to-one routing, meaning that every processor wil
 
 ## How to run in Online-cpp.com
 
-1. Use the corresponding url to be transported to the page
+1. Use the corresponding url (https://tinyurl.com/2xthcew4) to be transported to the code page
 2. Click "Run" in the top left corner of the console
 3. Provide the necessary inputs, according to the corresponding messages
 4. Once all the parameters have been set, the algorithm will be executed and the results will appear in the output window
